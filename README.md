@@ -18,7 +18,9 @@
 ├── AGENTS.md                  # 顶层系统提示词与交互准则
 ├── config.toml                # Codex CLI 主配置，包含模型、项目、MCP 服务声明
 ├── internal_storage.json      # Codex CLI 内部持久化状态
-└── prompts/                   # 任务提示词模板集合（Markdown + YAML Front Matter）
+├── prompts/                   # 任务提示词模板集合（Markdown + YAML Front Matter）
+└── skills/                    # 可复用 Codex 技能集合
+    └── codex-team/SKILL.md    # 按需协作、需求澄清与委派流程
 ```
 
 > 建议在提交新文件前运行 `tree` 或 `ls` 确认目录层级保持清晰；若新增子目录，请同步更新本节说明。
